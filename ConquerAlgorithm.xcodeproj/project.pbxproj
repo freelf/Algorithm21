@@ -10,6 +10,7 @@
 		8F0AA995254FBE9800DD6B46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AA994254FBE9800DD6B46 /* main.swift */; };
 		8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AA99C254FBEDD00DD6B46 /* DeleteNode.swift */; };
 		8F0AA99F254FBFF000DD6B46 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AA99E254FBFF000DD6B46 /* ListNode.swift */; };
+		8F0AB409254FF00000DD6B46 /* ReverseLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AB408254FF00000DD6B46 /* ReverseLinkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		8F0AA994254FBE9800DD6B46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8F0AA99C254FBEDD00DD6B46 /* DeleteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNode.swift; sourceTree = "<group>"; };
 		8F0AA99E254FBFF000DD6B46 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		8F0AB408254FF00000DD6B46 /* ReverseLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				8F0AA99C254FBEDD00DD6B46 /* DeleteNode.swift */,
+				8F0AB408254FF00000DD6B46 /* ReverseLinkList.swift */,
 				8F0AA99E254FBFF000DD6B46 /* ListNode.swift */,
 			);
 			path = LinkList;
@@ -136,6 +139,7 @@
 			files = (
 				8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */,
 				8F0AA995254FBE9800DD6B46 /* main.swift in Sources */,
+				8F0AB409254FF00000DD6B46 /* ReverseLinkList.swift in Sources */,
 				8F0AA99F254FBFF000DD6B46 /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

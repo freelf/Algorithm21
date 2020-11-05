@@ -16,7 +16,8 @@ head.next?.next?.next?.next = ListNode(5)
 head.next?.next?.next?.next?.next = nil
 
 
-DeleteNodeSolution().deleteNode(head.next?.next)
+//DeleteNodeSolution().deleteNode(head.next?.next)
+let newHead = ReverseListSolution().reverseListDoublePointTwo(head)
 
-printLinkList(head)
+printLinkList(newHead)
 
