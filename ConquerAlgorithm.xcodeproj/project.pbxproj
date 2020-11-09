@@ -12,6 +12,7 @@
 		8F0AA99F254FBFF000DD6B46 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AA99E254FBFF000DD6B46 /* ListNode.swift */; };
 		8F0AB409254FF00000DD6B46 /* ReverseLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AB408254FF00000DD6B46 /* ReverseLinkList.swift */; };
 		8F307ED92555509100B0C0FF /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F307ED82555509100B0C0FF /* LinkedListCycle.swift */; };
+		8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8F0AA99E254FBFF000DD6B46 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		8F0AB408254FF00000DD6B46 /* ReverseLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkList.swift; sourceTree = "<group>"; };
 		8F307ED82555509100B0C0FF /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
+		8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkListElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				8F0AA99C254FBEDD00DD6B46 /* DeleteNode.swift */,
 				8F0AB408254FF00000DD6B46 /* ReverseLinkList.swift */,
 				8F307ED82555509100B0C0FF /* LinkedListCycle.swift */,
+				8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */,
 				8F0AA99E254FBFF000DD6B46 /* ListNode.swift */,
 			);
 			path = LinkList;
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */,
 				8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */,
 				8F0AA995254FBE9800DD6B46 /* main.swift in Sources */,
 				8F0AB409254FF00000DD6B46 /* ReverseLinkList.swift in Sources */,
