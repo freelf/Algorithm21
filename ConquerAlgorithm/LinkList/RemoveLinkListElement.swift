@@ -11,6 +11,7 @@
 
 import Foundation
 class RemoveLinkListElementsSolution {
+    // 递归
     func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
         if head == nil {
             return nil
@@ -21,6 +22,8 @@ class RemoveLinkListElementsSolution {
         }
         return head
     }
+    
+
     func removeElementsOne(_ head: ListNode?, _ val: Int) -> ListNode? {
         
         if head == nil {
@@ -44,6 +47,7 @@ class RemoveLinkListElementsSolution {
         return newHead
     }
     
+    // 虚拟头指针
     func removeElementsTwo(_ head: ListNode?, _ val: Int) -> ListNode? {
         if head == nil {
             return nil

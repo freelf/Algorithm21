@@ -6,6 +6,9 @@
 //  Copyright © 2021 Freelf. All rights reserved.
 //
 
+// 9. 回文数
+// https://leetcode-cn.com/problems/palindrome-number/
+
 import Foundation
 class PalindromeNumberSolution {
     func isPalindrome(_ x: Int) -> Bool {

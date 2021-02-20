@@ -22,12 +22,15 @@ import Foundation
 //printLinkList(newHead)
 
 
+//
+//var arr = [2,7,11,15]
+//
+//print(TwoSumSolution().twoSum(arr, 18))
+//
+//print(ReverseIntegerSolution().reverse(-214748364))
+//
+//print(PalindromeNumberSolution().isPalindrome(0))
 
-var arr = [2,7,11,15]
-
-print(TwoSumSolution().twoSum(arr, 18))
+print(SpiralMatrixIISolution().generateMatrix(4))
 
 
-print(ReverseIntegerSolution().reverse(-214748364))
-
-print(PalindromeNumberSolution().isPalindrome(0))

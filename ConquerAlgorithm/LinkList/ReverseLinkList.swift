@@ -6,7 +6,7 @@
 //  Copyright © 2020 Freelf. All rights reserved.
 //
 
-// 反转链表
+// 206. 反转链表
 // https://leetcode-cn.com/problems/reverse-linked-list/
 import Foundation
 
