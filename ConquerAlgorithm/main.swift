@@ -30,9 +30,19 @@ import Foundation
 //print(ReverseIntegerSolution().reverse(-214748364))
 //
 //print(PalindromeNumberSolution().isPalindrome(0))
+
 //var arr = [0,0,1,1,1,2,2,3,3,4]
 //print(RemoveDuplicatesFromSortedArraySolution().removeDuplicates(&arr))
 //
 //print(arr)
 print(ImplementStrstrSolution().strStr("heloll", "ll"))
 //print(arr)
+
+
+//print(SpiralMatrixIISolution().generateMatrix(4))
+
+
+//print(LongestCommonPrefixSolution().longestCommonPrefix(["flower","flow"]))
+
+print(ValidParenthesesSolution().isValid("([)]"))
+
