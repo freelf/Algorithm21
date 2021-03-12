@@ -8,41 +8,20 @@
 
 import Foundation
 
-//var head = ListNode(4)
-//head.next = ListNode(1)
-//head.next?.next = ListNode(2)
-//head.next?.next?.next = ListNode(3)
-//head.next?.next?.next?.next = ListNode(5)
+//var head = ListNode(9)
+//head.next = ListNode(9)
+//head.next?.next = ListNode(9)
+//head.next?.next?.next = ListNode(9)
+//head.next?.next?.next?.next = ListNode(9)
 //head.next?.next?.next?.next?.next = nil
 //
+//var head2 = ListNode(9)
+//head2.next = ListNode(9)
+//head2.next?.next = ListNode(9)
+//head2.next?.next?.next = nil
 //
-////DeleteNodeSolution().deleteNode(head.next?.next)
-//let newHead = ReverseListSolution().reverseListDoublePointTwo(head)
+//var result = AddTwoNumbersSolution().addTwoNumbers(head, head2)
 //
-//printLinkList(newHead)
-
-
-//
-//var arr = [2,7,11,15]
-//
-//print(TwoSumSolution().twoSum(arr, 18))
-//
-//print(ReverseIntegerSolution().reverse(-214748364))
-//
-//print(PalindromeNumberSolution().isPalindrome(0))
-
-//var arr = [0,0,1,1,1,2,2,3,3,4]
-//print(RemoveDuplicatesFromSortedArraySolution().removeDuplicates(&arr))
-//
-//print(arr)
-print(ImplementStrstrSolution().strStr("heloll", "ll"))
-//print(arr)
-
-
-//print(SpiralMatrixIISolution().generateMatrix(4))
-
-
-//print(LongestCommonPrefixSolution().longestCommonPrefix(["flower","flow"]))
-
-print(ValidParenthesesSolution().isValid("([)]"))
-
+//printLinkList(result)
+//print(ThreeSum().threeSum([-1]))
+print(ThreeSumClosestSolution().threeSumClosest([1,1,1,1], -100))

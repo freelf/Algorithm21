@@ -14,6 +14,9 @@
 		8F1E436625CD3006008EA1E5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E436525CD3006008EA1E5 /* TwoSum.swift */; };
 		8F1E436925CD3E18008EA1E5 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E436825CD3E18008EA1E5 /* ReverseInteger.swift */; };
 		8F1E436C25CD67DF008EA1E5 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E436B25CD67DF008EA1E5 /* PalindromeNumber.swift */; };
+		8F285C0B25FB5C39009C1986 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F285C0A25FB5C39009C1986 /* AddTwoNumbers.swift */; };
+		8F285C1225FB6E93009C1986 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F285C1125FB6E93009C1986 /* 3Sum.swift */; };
+		8F285C1525FB989A009C1986 /* 3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F285C1425FB989A009C1986 /* 3SumClosest.swift */; };
 		8F307ED92555509100B0C0FF /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F307ED82555509100B0C0FF /* LinkedListCycle.swift */; };
 		8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */; };
 		8F6BDD2125F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BDD2025F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift */; };
@@ -48,6 +51,9 @@
 		8F1E436525CD3006008EA1E5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		8F1E436825CD3E18008EA1E5 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		8F1E436B25CD67DF008EA1E5 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
+		8F285C0A25FB5C39009C1986 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		8F285C1125FB6E93009C1986 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
+		8F285C1425FB989A009C1986 /* 3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3SumClosest.swift; sourceTree = "<group>"; };
 		8F307ED82555509100B0C0FF /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkListElement.swift; sourceTree = "<group>"; };
 		8F6BDD2025F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedArray.swift; sourceTree = "<group>"; };
@@ -111,6 +117,7 @@
 				8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */,
 				8F0AA99E254FBFF000DD6B46 /* ListNode.swift */,
 				8F6EBD2F25F90FD200025548 /* MergeTwoSortedLists.swift */,
+				8F285C0A25FB5C39009C1986 /* AddTwoNumbers.swift */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -124,6 +131,8 @@
 				8F775A1825E0E6370072BFDF /* MinimumSizeSubarrySum.swift */,
 				8F775A1B25E0F40B0072BFDF /* SpiralMatrixII.swift */,
 				8F6BDD2025F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift */,
+				8F285C1125FB6E93009C1986 /* 3Sum.swift */,
+				8F285C1425FB989A009C1986 /* 3SumClosest.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -200,6 +209,9 @@
 				8F775A1625E0C2130072BFDF /* RemoveElement.swift in Sources */,
 				8F6EBD2725F9029100025548 /* LongestCommonPrefix.swift in Sources */,
 				8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */,
+				8F285C1225FB6E93009C1986 /* 3Sum.swift in Sources */,
+				8F285C1525FB989A009C1986 /* 3SumClosest.swift in Sources */,
+				8F285C0B25FB5C39009C1986 /* AddTwoNumbers.swift in Sources */,
 				8F1E436C25CD67DF008EA1E5 /* PalindromeNumber.swift in Sources */,
 				8F9730FA25F9D58500420F48 /* ImplementStrstr.swift in Sources */,
 				8F0AA995254FBE9800DD6B46 /* main.swift in Sources */,
