@@ -13,15 +13,15 @@ import Foundation
 
 class LinkedListCycle {
     func hasCycle(_ head: ListNode?) -> Bool {
-        if head == nil || head?.next == nil {
+        if head?.next == nil || head == nil {
             return false
         }
         var slow = head
-        var fast = head?.next
+        var fast = head
         while fast != nil || fast?.next != nil {
             fast = fast?.next?.next
             slow = slow?.next
-            if fast === slow {
+            if slow === fast {
                 return true
             }
         }
