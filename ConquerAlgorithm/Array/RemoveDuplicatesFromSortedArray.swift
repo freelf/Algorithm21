@@ -15,16 +15,13 @@ class RemoveDuplicatesFromSortedArraySolution {
         if nums.count < 2 {
             return nums.count
         }
-        var slow = 0
-        for index in 1 ..< nums.count {
-            let element = nums[index]
-            if element != nums[slow] {
-                if index - slow != 1 {
-                    nums[slow + 1] = element
-                }
-                slow += 1
+        var insertBeforeIndex = 0
+        for i in 1 ..< nums.count {
+            if nums[i] != nums[insertBeforeIndex] {
+                nums[insertBeforeIndex + 1] = nums[i]
+                insertBeforeIndex += 1
             }
         }
-        return slow + 1
+        return insertBeforeIndex + 1
     }
 }

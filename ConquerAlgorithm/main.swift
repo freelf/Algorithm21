@@ -24,4 +24,7 @@ import Foundation
 //
 //printLinkList(result)
 //print(ThreeSum().threeSum([-1]))
-print(ThreeSumClosestSolution().threeSumClosest([1,1,1,1], -100))
+//print(ThreeSumClosestSolution().threeSumClosest([1,1,1,1], -100))
+var arr = [1, 2, 3, 4, 5, 6, 7];
+RotateArraySolution().rotate(&arr, 7)
+print(arr)
