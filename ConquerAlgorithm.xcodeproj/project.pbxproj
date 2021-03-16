@@ -22,6 +22,9 @@
 		8F28644C25FF50CA009C1986 /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28644B25FF50CA009C1986 /* RotateArray.swift */; };
 		8F286BC425FF65B9009C1986 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F286BC325FF65B9009C1986 /* MergeSortedArray.swift */; };
 		8F286BC725FF8BB6009C1986 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F286BC625FF8BB6009C1986 /* PlusOne.swift */; };
+		8F286BDA2600A404009C1986 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F286BD92600A404009C1986 /* SymmetricTree.swift */; };
+		8F286BDE2600A515009C1986 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F286BDD2600A515009C1986 /* TreeNode.swift */; };
+		8F2873562600D565009C1986 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2873552600D565009C1986 /* BalancedBinaryTree.swift */; };
 		8F307ED92555509100B0C0FF /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F307ED82555509100B0C0FF /* LinkedListCycle.swift */; };
 		8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */; };
 		8F4FD02A25FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4FD02925FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift */; };
@@ -69,6 +72,9 @@
 		8F28644B25FF50CA009C1986 /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 		8F286BC325FF65B9009C1986 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		8F286BC625FF8BB6009C1986 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		8F286BD92600A404009C1986 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
+		8F286BDD2600A515009C1986 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		8F2873552600D565009C1986 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 		8F307ED82555509100B0C0FF /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkListElement.swift; sourceTree = "<group>"; };
 		8F4FD02925FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 		8F0AA993254FBE9800DD6B46 /* ConquerAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				8F286BD82600A39D009C1986 /* BinaryTree */,
 				8F6EBD2525F9026700025548 /* String */,
 				8F1E436425CD2FF0008EA1E5 /* Array */,
 				8F0AA994254FBE9800DD6B46 /* main.swift */,
@@ -165,6 +172,16 @@
 				8F4FD03525FE50BF002DBF12 /* ContainerWithMostWater.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		8F286BD82600A39D009C1986 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				8F286BD92600A404009C1986 /* SymmetricTree.swift */,
+				8F286BDD2600A515009C1986 /* TreeNode.swift */,
+				8F2873552600D565009C1986 /* BalancedBinaryTree.swift */,
+			);
+			path = BinaryTree;
 			sourceTree = "<group>";
 		};
 		8F6EBD2525F9026700025548 /* String */ = {
@@ -237,11 +254,14 @@
 				8F286BC425FF65B9009C1986 /* MergeSortedArray.swift in Sources */,
 				8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */,
 				8F286BC725FF8BB6009C1986 /* PlusOne.swift in Sources */,
+				8F286BDA2600A404009C1986 /* SymmetricTree.swift in Sources */,
 				8F1E436925CD3E18008EA1E5 /* ReverseInteger.swift in Sources */,
+				8F2873562600D565009C1986 /* BalancedBinaryTree.swift in Sources */,
 				8F285C3E25FF10FE009C1986 /* MoveZeroes.swift in Sources */,
 				8F4FD02D25FD0945002DBF12 /* SwapNodesInPairs.swift in Sources */,
 				8F775A1625E0C2130072BFDF /* RemoveElement.swift in Sources */,
 				8F4FD03625FE50BF002DBF12 /* ContainerWithMostWater.swift in Sources */,
+				8F286BDE2600A515009C1986 /* TreeNode.swift in Sources */,
 				8F6EBD2725F9029100025548 /* LongestCommonPrefix.swift in Sources */,
 				8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */,
 				8F285C1225FB6E93009C1986 /* 3Sum.swift in Sources */,

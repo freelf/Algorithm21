@@ -8,12 +8,12 @@
 
 import Foundation
 
-var head = ListNode(-1)
-head.next = ListNode(-7)
-head.next?.next = ListNode(7)
-head.next?.next?.next = ListNode(-4)
-head.next?.next?.next?.next = ListNode(19)
-
+//var head = ListNode(9)
+//head.next = ListNode(9)
+//head.next?.next = ListNode(9)
+//head.next?.next?.next = ListNode(9)
+//head.next?.next?.next?.next = ListNode(9)
+//head.next?.next?.next?.next?.next = nil
 //
 //var head2 = ListNode(9)
 //head2.next = ListNode(9)
@@ -27,7 +27,6 @@ head.next?.next?.next?.next = ListNode(19)
 //print(ThreeSumClosestSolution().threeSumClosest([1,1,1,1], -100))
 
 var arr1 = [9, 9]
-
-print(PlusOneSolution().plusOne(arr1))
-//print(MiddleOfTheLinkedListSolution().middleNode(head)?.val)
-print(TwoSumSolution().twoSum2([3, 2, 4], 6))
+let tree = TreeNode.init(1, TreeNode.init(2,TreeNode.init(3), nil), TreeNode.init(2, nil, TreeNode.init(3, TreeNode(4, nil, TreeNode(4)), nil)))
+//print(PlusOneSolution().plusOne(arr1))
+print(BalancedBinaryTreeSolution.init().isBalanced(tree))
