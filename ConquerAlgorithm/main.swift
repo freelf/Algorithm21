@@ -27,6 +27,6 @@ import Foundation
 //print(ThreeSumClosestSolution().threeSumClosest([1,1,1,1], -100))
 
 var arr1 = [9, 9]
-let tree = TreeNode.init(1, TreeNode.init(2,TreeNode.init(3), nil), TreeNode.init(2, nil, TreeNode.init(3, TreeNode(4, nil, TreeNode(4)), nil)))
+let tree = TreeNode.init(3, TreeNode.init(9,nil, nil), TreeNode(20, TreeNode(15), TreeNode(7)))
 //print(PlusOneSolution().plusOne(arr1))
 print(BalancedBinaryTreeSolution.init().isBalanced(tree))
