@@ -29,6 +29,8 @@
 		8F2873622601E0FC009C1986 /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2873612601E0FC009C1986 /* ValidateBST.swift */; };
 		8F307ED92555509100B0C0FF /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F307ED82555509100B0C0FF /* LinkedListCycle.swift */; };
 		8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */; };
+		8F37682C260374D6007807D6 /* PreorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37682B260374D6007807D6 /* PreorderTraversal.swift */; };
+		8F37682F26038265007807D6 /* InorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37682E26038265007807D6 /* InorderTraversal.swift */; };
 		8F4FD02A25FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4FD02925FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift */; };
 		8F4FD02D25FD0945002DBF12 /* SwapNodesInPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4FD02C25FD0945002DBF12 /* SwapNodesInPairs.swift */; };
 		8F4FD03025FDBB36002DBF12 /* LinkedListCycleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4FD02F25FDBB36002DBF12 /* LinkedListCycleII.swift */; };
@@ -81,6 +83,8 @@
 		8F2873612601E0FC009C1986 /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		8F307ED82555509100B0C0FF /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkListElement.swift; sourceTree = "<group>"; };
+		8F37682B260374D6007807D6 /* PreorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreorderTraversal.swift; sourceTree = "<group>"; };
+		8F37682E26038265007807D6 /* InorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InorderTraversal.swift; sourceTree = "<group>"; };
 		8F4FD02925FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
 		8F4FD02C25FD0945002DBF12 /* SwapNodesInPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodesInPairs.swift; sourceTree = "<group>"; };
 		8F4FD02F25FDBB36002DBF12 /* LinkedListCycleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycleII.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 				8F2873552600D565009C1986 /* BalancedBinaryTree.swift */,
 				8F28735E2601DD52009C1986 /* InvertBinaryTree.swift */,
 				8F2873612601E0FC009C1986 /* ValidateBST.swift */,
+				8F37682B260374D6007807D6 /* PreorderTraversal.swift */,
+				8F37682E26038265007807D6 /* InorderTraversal.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 				8F6EBD2725F9029100025548 /* LongestCommonPrefix.swift in Sources */,
 				8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */,
 				8F285C1225FB6E93009C1986 /* 3Sum.swift in Sources */,
+				8F37682C260374D6007807D6 /* PreorderTraversal.swift in Sources */,
 				8F4FD03025FDBB36002DBF12 /* LinkedListCycleII.swift in Sources */,
 				8F4FD02A25FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift in Sources */,
 				8F285C1525FB989A009C1986 /* 3SumClosest.swift in Sources */,
@@ -290,6 +297,7 @@
 				8F4FD03325FE4677002DBF12 /* MiddleOfTheLinkedList.swift in Sources */,
 				8F775A1925E0E6370072BFDF /* MinimumSizeSubarrySum.swift in Sources */,
 				8F6EBD2D25F90A4000025548 /* ValidParentheses.swift in Sources */,
+				8F37682F26038265007807D6 /* InorderTraversal.swift in Sources */,
 				8F6EBD3025F90FD200025548 /* MergeTwoSortedLists.swift in Sources */,
 				8F0AA99F254FBFF000DD6B46 /* ListNode.swift in Sources */,
 				8F2873622601E0FC009C1986 /* ValidateBST.swift in Sources */,
