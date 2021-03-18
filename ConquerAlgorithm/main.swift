@@ -30,3 +30,4 @@ var arr1 = [9, 9]
 let tree = TreeNode.init(3, TreeNode.init(9,nil, nil), TreeNode(20, TreeNode(15), TreeNode(7)))
 //print(PlusOneSolution().plusOne(arr1))
 print(ValidateBSTSolution().isValidBST(tree))
+print(SqrtXSolution().mySqrt(3))
