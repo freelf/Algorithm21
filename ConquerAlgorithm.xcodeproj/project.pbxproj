@@ -25,6 +25,8 @@
 		8F286BDA2600A404009C1986 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F286BD92600A404009C1986 /* SymmetricTree.swift */; };
 		8F286BDE2600A515009C1986 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F286BDD2600A515009C1986 /* TreeNode.swift */; };
 		8F2873562600D565009C1986 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2873552600D565009C1986 /* BalancedBinaryTree.swift */; };
+		8F28735F2601DD52009C1986 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28735E2601DD52009C1986 /* InvertBinaryTree.swift */; };
+		8F2873622601E0FC009C1986 /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2873612601E0FC009C1986 /* ValidateBST.swift */; };
 		8F307ED92555509100B0C0FF /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F307ED82555509100B0C0FF /* LinkedListCycle.swift */; };
 		8F30E53225597BEE00B0C0FF /* RemoveLinkListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */; };
 		8F4FD02A25FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4FD02925FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift */; };
@@ -75,6 +77,8 @@
 		8F286BD92600A404009C1986 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
 		8F286BDD2600A515009C1986 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		8F2873552600D565009C1986 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
+		8F28735E2601DD52009C1986 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
+		8F2873612601E0FC009C1986 /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		8F307ED82555509100B0C0FF /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		8F30E53125597BEE00B0C0FF /* RemoveLinkListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkListElement.swift; sourceTree = "<group>"; };
 		8F4FD02925FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 				8F286BD92600A404009C1986 /* SymmetricTree.swift */,
 				8F286BDD2600A515009C1986 /* TreeNode.swift */,
 				8F2873552600D565009C1986 /* BalancedBinaryTree.swift */,
+				8F28735E2601DD52009C1986 /* InvertBinaryTree.swift */,
+				8F2873612601E0FC009C1986 /* ValidateBST.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 				8F28644925FF494D009C1986 /* ClimbingStairs.swift in Sources */,
 				8F1E436C25CD67DF008EA1E5 /* PalindromeNumber.swift in Sources */,
 				8F9730FA25F9D58500420F48 /* ImplementStrstr.swift in Sources */,
+				8F28735F2601DD52009C1986 /* InvertBinaryTree.swift in Sources */,
 				8F0AA995254FBE9800DD6B46 /* main.swift in Sources */,
 				8F6BDD2125F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				8F775A1325E0B1730072BFDF /* SearchInsertPosition.swift in Sources */,
@@ -285,6 +292,7 @@
 				8F6EBD2D25F90A4000025548 /* ValidParentheses.swift in Sources */,
 				8F6EBD3025F90FD200025548 /* MergeTwoSortedLists.swift in Sources */,
 				8F0AA99F254FBFF000DD6B46 /* ListNode.swift in Sources */,
+				8F2873622601E0FC009C1986 /* ValidateBST.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
