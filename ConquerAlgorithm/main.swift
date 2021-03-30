@@ -27,7 +27,8 @@ import Foundation
 //print(ThreeSumClosestSolution().threeSumClosest([1,1,1,1], -100))
 
 var arr1 = [9, 9]
-let tree = TreeNode.init(3, TreeNode.init(9,nil, nil), TreeNode(20, TreeNode(15), TreeNode(7)))
+let tree = TreeNode.init(1, nil, TreeNode(2, TreeNode(3), nil))
 //print(PlusOneSolution().plusOne(arr1))
-print(ValidateBSTSolution().isValidBST(tree))
-print(SqrtXSolution().mySqrt(3))
+//print(ValidateBSTSolution().isValidBST(tree))
+//print(SqrtXSolution().mySqrt(3))
+print(PreorderTraversalSolution().preorderTraversal3(tree))

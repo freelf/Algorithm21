@@ -1,17 +1,18 @@
 //
-//  PreorderTraversal.swift
+//  PostorderTraversal.swift
 //  ConquerAlgorithm
 //
-//  Created by Freelf on 2021/3/18.
+//  Created by Freelf on 2021/3/26.
 //  Copyright © 2021 Freelf. All rights reserved.
 //
 
-// https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
-// 144. 二叉树的前序遍历
+// https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
+// 145. 二叉树的后序遍历
 
 import Foundation
-class PreorderTraversalSolution {
-    func preorderTraversal(_ root: TreeNode?) -> [Int] {
+
+class PostorderSolution {
+    func postorderTraversal(_ root: TreeNode?) -> [Int] {
         var array = [Int]()
         traversal(root, &array)
         return array
@@ -20,12 +21,12 @@ class PreorderTraversalSolution {
         if root == nil {
             return
         }
-        result.append(root!.val)
         traversal(root?.left, &result)
         traversal(root?.right, &result)
+        result.append(root!.val)
     }
     
-    func preorderTraversal2(_ root: TreeNode?) -> [Int] {
+    func postorderTraversal2(_ root: TreeNode?) -> [Int] {
         var result = [Int]()
         if root == nil {
             return result
@@ -35,17 +36,18 @@ class PreorderTraversalSolution {
         while !stack.isEmpty {
             let node = stack.removeLast()
             result.append(node.val)
-            if let right = node.right {
-                stack.append(right)
-            }
+            
             if let left = node.left {
                 stack.append(left)
             }
+            if let right = node.right {
+                stack.append(right)
+            }
         }
-        return result
+        return result.reversed()
     }
     
-    func preorderTraversal3(_ root: TreeNode?) -> [Int] {
+    func postorderTraversal3(_ root: TreeNode?) -> [Int] {
         var result = [Int]()
         if root == nil {
             return result
@@ -53,12 +55,11 @@ class PreorderTraversalSolution {
         var stack = [TreeNode?]()
         stack.append(root)
         while !stack.isEmpty {
-            if stack.last! != nil {
-                let last = stack.removeLast()!
-                if let right = last.right { stack.append(right) }
-                if let left = last.left { stack.append(left) }
-                stack.append(last)
+            let top = stack.last!
+            if top != nil {
                 stack.append(nil)
+                if let right = top!.right { stack.append(right) }
+                if let left = top!.left { stack.append(left) }
             } else {
                 stack.removeLast()
                 result.append(stack.removeLast()!.val)
@@ -66,4 +67,5 @@ class PreorderTraversalSolution {
         }
         return result
     }
+
 }

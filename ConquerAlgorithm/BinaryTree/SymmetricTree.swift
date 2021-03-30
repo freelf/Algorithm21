@@ -6,12 +6,11 @@
 //  Copyright © 2021 Freelf. All rights reserved.
 //
 
+// https://leetcode-cn.com/problems/symmetric-tree/
+// 101. 对称二叉树
+
 import Foundation
 
-
-
-
- 
 class SymmetricTreeSolution {
     func isSymmetric(_ root: TreeNode?) -> Bool {
         if root == nil {

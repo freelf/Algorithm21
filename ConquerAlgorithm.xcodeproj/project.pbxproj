@@ -46,6 +46,9 @@
 		8F775A1925E0E6370072BFDF /* MinimumSizeSubarrySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F775A1825E0E6370072BFDF /* MinimumSizeSubarrySum.swift */; };
 		8F775A1C25E0F40B0072BFDF /* SpiralMatrixII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F775A1B25E0F40B0072BFDF /* SpiralMatrixII.swift */; };
 		8F9730FA25F9D58500420F48 /* ImplementStrstr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9730F925F9D58500420F48 /* ImplementStrstr.swift */; };
+		8F9E0B34260DB40400B98741 /* PostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E0B33260DB40300B98741 /* PostorderTraversal.swift */; };
+		8FED1F88260E0502005D4F24 /* LevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED1F87260E0502005D4F24 /* LevelOrderTraversal.swift */; };
+		8FED1F8B260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED1F8A260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +104,9 @@
 		8F775A1825E0E6370072BFDF /* MinimumSizeSubarrySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSizeSubarrySum.swift; sourceTree = "<group>"; };
 		8F775A1B25E0F40B0072BFDF /* SpiralMatrixII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrixII.swift; sourceTree = "<group>"; };
 		8F9730F925F9D58500420F48 /* ImplementStrstr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrstr.swift; sourceTree = "<group>"; };
+		8F9E0B33260DB40300B98741 /* PostorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostorderTraversal.swift; sourceTree = "<group>"; };
+		8FED1F87260E0502005D4F24 /* LevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrderTraversal.swift; sourceTree = "<group>"; };
+		8FED1F8A260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagLevelOrderTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,9 @@
 				8F2873612601E0FC009C1986 /* ValidateBST.swift */,
 				8F37682B260374D6007807D6 /* PreorderTraversal.swift */,
 				8F37682E26038265007807D6 /* InorderTraversal.swift */,
+				8F9E0B33260DB40300B98741 /* PostorderTraversal.swift */,
+				8FED1F87260E0502005D4F24 /* LevelOrderTraversal.swift */,
+				8FED1F8A260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -286,11 +295,13 @@
 				8F4FD03625FE50BF002DBF12 /* ContainerWithMostWater.swift in Sources */,
 				8F286BDE2600A515009C1986 /* TreeNode.swift in Sources */,
 				8F6EBD2725F9029100025548 /* LongestCommonPrefix.swift in Sources */,
+				8FED1F8B260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift in Sources */,
 				8F0AA99D254FBEDD00DD6B46 /* DeleteNode.swift in Sources */,
 				8F285C1225FB6E93009C1986 /* 3Sum.swift in Sources */,
 				8F37682C260374D6007807D6 /* PreorderTraversal.swift in Sources */,
 				8F4FD03025FDBB36002DBF12 /* LinkedListCycleII.swift in Sources */,
 				8F4FD02A25FCFF79002DBF12 /* RemoveNthNodeFromEndOfList.swift in Sources */,
+				8F9E0B34260DB40400B98741 /* PostorderTraversal.swift in Sources */,
 				8F285C1525FB989A009C1986 /* 3SumClosest.swift in Sources */,
 				8F285C0B25FB5C39009C1986 /* AddTwoNumbers.swift in Sources */,
 				8F28644925FF494D009C1986 /* ClimbingStairs.swift in Sources */,
@@ -300,6 +311,7 @@
 				8F0AA995254FBE9800DD6B46 /* main.swift in Sources */,
 				8F6BDD2125F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				8F4FD03E2602465C002DBF12 /* SqrtX.swift in Sources */,
+				8FED1F88260E0502005D4F24 /* LevelOrderTraversal.swift in Sources */,
 				8F775A1325E0B1730072BFDF /* SearchInsertPosition.swift in Sources */,
 				8F1E436625CD3006008EA1E5 /* TwoSum.swift in Sources */,
 				8F0AB409254FF00000DD6B46 /* ReverseLinkList.swift in Sources */,
