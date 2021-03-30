@@ -49,6 +49,7 @@
 		8F9E0B34260DB40400B98741 /* PostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E0B33260DB40300B98741 /* PostorderTraversal.swift */; };
 		8FED1F88260E0502005D4F24 /* LevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED1F87260E0502005D4F24 /* LevelOrderTraversal.swift */; };
 		8FED1F8B260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED1F8A260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift */; };
+		8FED400C261348CE005D4F24 /* DecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FED400B261348CE005D4F24 /* DecodeString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +108,7 @@
 		8F9E0B33260DB40300B98741 /* PostorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostorderTraversal.swift; sourceTree = "<group>"; };
 		8FED1F87260E0502005D4F24 /* LevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrderTraversal.swift; sourceTree = "<group>"; };
 		8FED1F8A260E0B24005D4F24 /* ZigzagLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagLevelOrderTraversal.swift; sourceTree = "<group>"; };
+		8FED400B261348CE005D4F24 /* DecodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			children = (
 				8F6EBD2625F9029100025548 /* LongestCommonPrefix.swift */,
 				8F6EBD2C25F90A4000025548 /* ValidParentheses.swift */,
+				8FED400B261348CE005D4F24 /* DecodeString.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				8F9730FA25F9D58500420F48 /* ImplementStrstr.swift in Sources */,
 				8F28735F2601DD52009C1986 /* InvertBinaryTree.swift in Sources */,
 				8F0AA995254FBE9800DD6B46 /* main.swift in Sources */,
+				8FED400C261348CE005D4F24 /* DecodeString.swift in Sources */,
 				8F6BDD2125F9B4E200435409 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				8F4FD03E2602465C002DBF12 /* SqrtX.swift in Sources */,
 				8FED1F88260E0502005D4F24 /* LevelOrderTraversal.swift in Sources */,
