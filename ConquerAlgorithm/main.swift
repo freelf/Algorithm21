@@ -32,4 +32,4 @@ import Foundation
 //print(ValidateBSTSolution().isValidBST(tree))
 //print(SqrtXSolution().mySqrt(3))
 //print(PreorderTraversalSolution().preorderTraversal3(tree))
-print(DecodeStringSolution().decodeString("dd3[a2[b]]"))
+print(DecodeStringSolution().decodeString2("3[a]2[bc]"))

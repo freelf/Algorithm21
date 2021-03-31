@@ -30,4 +30,28 @@ class DecodeStringSolution {
         }
         return result
     }
+    
+    func decodeString2(_ s: String) -> String {
+        func dfs(_ s: String, _ i: Int) -> (String, Int){
+            var res = "", mutil = 0, index = i
+            while index < s.count {
+                let curChar = s[s.index(s.startIndex, offsetBy: index)]
+                if curChar == "[" {
+                    let (result, returnIndex) = dfs(s, index + 1)
+                    res += String.init(repeating: result, count: mutil)
+                    index = returnIndex
+                    mutil = 0
+                } else if curChar == "]" {
+                    return (res, index)
+                } else if curChar.isWholeNumber {
+                    mutil = mutil * 10 + curChar.wholeNumberValue!
+                } else {
+                    res.append(curChar)
+                }
+                index += 1
+            }
+            return (res, -1)
+        }
+        return dfs(s, 0).0
+    }
 }
