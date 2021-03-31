@@ -11,33 +11,23 @@
 import Foundation
 class DecodeStringSolution {
     func decodeString(_ s: String) -> String {
+        var stack: [(Int, String)] = []
         var result = ""
-        var mutils: [Int] = []
-        var strs: [String] = []
         var mutil = 0
-        var curRes = ""
         for char in s {
             if char == "["  {
-                mutils.append(mutil)
-                strs.append(curRes)
-                curRes = ""
+                stack.append((mutil, result))
+                result = ""
+                mutil = 0
             } else if char == "]" {
-                let lastMutil = mutils.removeLast()
-                let str = strs.removeLast()
-                var tempResult = ""
-                for _ in 0 ..< lastMutil {
-                    tempResult.append(str)
-                }
-                if strs.isEmpty {
-                    result.append(tempResult)
-                }
-            } else if char >= "0" && char <= "9" {
-                mutil = mutil * 10 + Int(String(char))!
+                let (curMutil, lastRes) = stack.removeLast()
+                result = lastRes + String.init(repeating: result, count: curMutil)
+            } else if char.isWholeNumber {
+                mutil = mutil * 10 + char.wholeNumberValue!
             } else {
-                curRes += String(char)
+                result += String(char)
             }
         }
-        
-        return strs.reduce("") { (result, cur) -> String in return result + cur } + result
+        return result
     }
 }
